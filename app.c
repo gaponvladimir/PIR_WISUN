@@ -268,13 +268,14 @@ void app_task(void *arg)
 #endif
             }
         }
-
+/*
         // Debug output 
         app_log_info("PIR: %6d thr:%4d mot:%s | VIB: e=%6lu thr:%6lu vib:%s\r\n",
                      pir.value, s_md.threshold, motion ? "Y" : "N",
                      (unsigned long)s_vd.energy,
                      (unsigned long)s_vd.threshold,
                      vibration ? "Y" : "N");
+*/
     }
 }
 

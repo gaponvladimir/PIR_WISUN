@@ -22,7 +22,7 @@
 #define STARTUP_TIME_MS          1000u
 
 /* Warmup period — detection output suppressed while baselines converge (ms) */
-#define WARMUP_TIME_MS           2000//60000u
+#define WARMUP_TIME_MS           60000u
 
 /* Sensor polling period (ms) — effective sample rate = 5 Hz */
 #define SENSOR_READING_PERIOD_MS 200u
