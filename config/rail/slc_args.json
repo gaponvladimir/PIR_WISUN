@@ -1,0 +1,6 @@
+{
+  "sdkRoot" : "C:/Users/VHapoiants/.silabs/slt/installs/conan/p/simpl35774a752829c/p/",
+  "apackRoot" : "C:\\Users\\VHapoiants\\.silabs\\slt\\installs\\conan\\p\\simpl35774a752829c\\p\\radio_config_generator",
+  "partOpn" : "efr32zg28b312f1024im48",
+  "boards" : "brd2705arevA02"
+}
