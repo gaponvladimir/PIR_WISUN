@@ -87,6 +87,11 @@ component:
   vendor: silabs
   id: printf
 - package: simplicity_sdk
+  instance:
+  - buzzer
+  vendor: silabs
+  id: pwm
+- package: simplicity_sdk
   vendor: silabs
   id: radio_config_brd_wisun_singlephy
 - package: simplicity_sdk

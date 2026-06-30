@@ -67,6 +67,14 @@
 // [GPIO]$
 
 // $[TIMER0]
+// TIMER0 CC0 on PC02
+#ifndef TIMER0_CC0_PORT                         
+#define TIMER0_CC0_PORT                          SL_GPIO_PORT_C
+#endif
+#ifndef TIMER0_CC0_PIN                          
+#define TIMER0_CC0_PIN                           2
+#endif
+
 // [TIMER0]$
 
 // $[TIMER1]
@@ -189,6 +197,13 @@
 // [MODEM]$
 
 // $[CUSTOM_PIN_NAME]
+#ifndef Buzzer_PORT                             
+#define Buzzer_PORT                              SL_GPIO_PORT_C
+#endif
+#ifndef Buzzer_PIN                              
+#define Buzzer_PIN                               2
+#endif
+
 // [CUSTOM_PIN_NAME]$
 
 
