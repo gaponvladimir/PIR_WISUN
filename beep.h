@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 /* Default tone frequency in Hz — typical piezo resonance is 2-4 kHz */
-#define BEEP_DEFAULT_FREQ_HZ   1000u
+#define BEEP_DEFAULT_FREQ_HZ   2000u
 
 /* Default duty cycle in percent (0-100). 50% is standard for square wave. */
 #define BEEP_DEFAULT_DUTY_PCT  50u
